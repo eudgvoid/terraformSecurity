@@ -10,72 +10,72 @@ variable "project_id" {
 
 variable "allowed_ip_range" {
   description = "A"
-  type = list(string)
+  type        = list(string)
 }
 
 variable "vpc_name" {
   description = "b"
-  type = string
+  type        = string
 }
 
 variable "vpc_id" {
   description = "c"
-  type = string
+  type        = string
 }
 
 variable "vpc_cidr_block" {
   description = "c"
-  type = string
+  type        = string
 }
 
 variable "public_subnet_name" {
   description = "c"
-  type = string
+  type        = string
 }
 
 variable "public_subnet_id" {
   description = "c"
-  type = string
+  type        = string
 }
 
 variable "private_subnet_name" {
   description = "c"
-  type = string
+  type        = string
 }
 
 variable "private_subnet_id" {
   description = "c"
-  type = string
+  type        = string
 }
 
 variable "public_ec2_instance_name" {
   description = "c"
-  type = string
+  type        = string
 }
 
 variable "public_ec2_instance_id" {
   description = "c"
-  type = string
+  type        = string
 }
 
 
 variable "public_ec2_instance_port" {
   description = "c"
-  type = string
+  type        = string
 }
 
 variable "private_ec2_instance_name" {
   description = "c"
-  type = string
+  type        = string
 }
 
 variable "private_ec2_instance_id" {
   description = "c"
-  type = string
+  type        = string
 }
 
 variable "private_ec2_instance_port" {
   description = "c"
-  type = string
+  type        = string
 }
 
