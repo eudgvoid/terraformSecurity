@@ -20,3 +20,4 @@ public_ec2_instance_port = "80"
 private_ec2_instance_name = "cmtr-6pajwelx-private-instance"
 private_ec2_instance_id = "i-0c98e488748f902cf"
 private_ec2_instance_port = "8080"
+
