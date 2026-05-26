@@ -8,6 +8,10 @@ variable "project_id" {
   type        = string
 }
 
+variable "allowed_ip_range" {
+  type = list(string)
+}
+
 variable "vpc_name" {
   type        = string
 }
