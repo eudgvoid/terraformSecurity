@@ -93,7 +93,7 @@ resource "aws_network_interface_sg_attachment" "http_pub_attachment" {
 }
 
 data "aws_instance" "private" {
-  instance_id = var.public_ec2_instance_id
+  instance_id = var.private_ec2_instance_id
 }
 
 resource "aws_network_interface_sg_attachment" "ssh_priv_attachment" {
